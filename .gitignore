@@ -3,6 +3,7 @@
 \.chg\..*$
 \.rej$
 \.conflict\~$
-glob:build/**
-glob:dist/**
-glob:nbproject/private/**
+build/**
+dist/**
+nbproject/private/**
+.dep.inc

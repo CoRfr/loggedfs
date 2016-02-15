@@ -25,10 +25,15 @@
 
 #include <stdio.h>
 #include <pcre.h>
-#include <string>
 #include <map>
 
+#include <string>
+
 using namespace std;
+
+extern "C" {
+    #include <string.h>
+}
 
 class Filter {
 public:
